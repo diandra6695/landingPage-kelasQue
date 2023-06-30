@@ -1,0 +1,27 @@
+.navbar-nav {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 27rem;
+    height: 100vh;
+    transition: 0.3s;
+}
+
+.navbar-nav.active {
+    left: 0;
+}
+
+.warning {
+    z-index: -999;
+    position: absolute;
+    top: -100%;
+    transition: 0.7s ease;
+}
+
+.warning.show {
+    top: 90%;
+}
+
+.halah{
+    overflow: hidden;
+}

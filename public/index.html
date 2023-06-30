@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://kit.fontawesome.com/942a14da0c.js" crossorigin="anonymous"></script>
+    <title>KelasQue</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../src/style/global.css"/>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="css/output.css">
+    <!-- <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                bg: '#F6F5F1',
+                dua: '#dcd7c9',
+                tiga: '#966844',
+                empat: '#c2c8c6',
+                lima: '#3f4e51',
+                enam: '#2c3638',
+                text: '#12294a',
+                lain: '#81172c',
+                ini: '#f7f6f8',
+              },
+              fontFamily: {
+                lato: ['DM Sans'],
+              },
+              screens: {
+                'xs': {'max': '639px'}
+              },
+            },
+          },
+        };
+    </script> -->
+</head>
+<body>
+    <div class="pembungkus">
+        <div class="wrapper font-lato ">
+                <nav class="">
+                    <div class="top-0 fixed w-full shadow-sm">
+                        <div class="flex justify-between items-center bg-white py-3 px-7">
+                            <div class="logo left-0 flex gap-3 justify-between items-center w-full">
+                                <div class="flex items-center gap-2">
+                                    <a id="btn-navbar" class="btn-test text-text h-12 w-12 rounded-full bg-ini flex justify-center items-center" href="#" id="btn"><i class="" data-feather="align-left"></i></a>
+                                    <h3 class="font-bold text-xl text-text">Kelas<span class="text-lain">Que</span></h3>
+                                </div>
+                                <a class="lg:hidden bg-text px-5 py-1 text-white rounded-lg hover:bg-transparent hover:text-text hover:border-solid hover:border-text hover:border-2 transition" href="">Login</a>
+                            </div>
+                            <ul class="gap-3 text-text xs:hidden flex justify-center items-center">
+                                <li><a href="">Home</a></li>
+                                <li><a href="">Tutor</a></li>
+                                <li><a href="">About</a></li>
+                                <a class="bg-text px-5 py-1 text-white rounded-lg hover:bg-transparent hover:text-text hover:border-solid hover:border-text hover:border-2 transition" href="">Login</a>
+                            </ul>
+                        </div>
+
+                        <!-- warning -->
+                        <div class="warning bg-yellow-200 p-4 flex rounded-b-2xl mb-10 items-center xs:text-xs lg:text-sm justify-between w-full text-text">
+                            <div class="icon flex justify-center items-center">
+                                <div class="animasi absolute h-6 w-6 bg-text animate-ping rounded-full"></div>
+                                <i class="items-center w-16" data-feather="alert-triangle"></i>
+                            </div>
+                            <p>perhatian!, website ini masih dalam pengembangan. Jika anda menemukan bug (fitur) silahkan <a class="underline" href="https://www.instagram.com/bogengteam_/">hubungi kami</a></p>
+                            <a id="btn-hidden" href="#"><i class="" data-feather="x"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="navbar-nav shadow-2xl fixed py-3 px-7 bg-black bg-opacity-70 z-50">
+                        <div class="logo flex gap-3 items-center">
+                            <a id="btn-navbar2" class="text-text h-12 w-12 rounded-full bg-ini flex justify-center items-center" href="#" id="btn"><i class="" data-feather="x"></i></a>
+                            
+                        </div>
+                        <div class="flex flex-col text-xl font-black text-white ml-14 gap-10 mt-5">
+                            <a class="hover:text-text transition-colors" href="#home"><span class="text-xs m-2 text-gray-300">01</span>Home</a>
+                            <a class="hover:text-text transition-colors" href="#about"><span class="text-xs m-2 text-gray-300">02</span>Tentang Kami</a>
+                            <a class="hover:text-text transition-colors" href="#menu"><span class="text-xs m-2 text-gray-300">03</span>Menu</a>
+                            <a class="hover:text-text transition-colors" href="#products"><span class="text-xs m-2 text-gray-300">04</span>Produk</a>
+                            <a class="hover:text-text transition-colors" href="#contact"><span class="text-xs m-2 text-gray-300">05</span>Kontak</a>
+
+                            <div class="btn mt-2">
+                                <a class="px-6 py-3 bg-white rounded-md text-text text-sm font-bold hover:bg-transparent hover:text-text hover:px-8 hover:border-solid hover:border-text hover:border-2 transition" href="">Login</a>
+                            </div>
+
+                            <div class="footer lg:translate-y-10 xs:translate-y-48 flex gap-5">
+                                <div class="alamat">
+                                    <h3 class="text-base font-bold mb-3">Get In Touch</h3>
+                                    <p class="text-xs font-normal text-gray-300 max-w-xs">JL. KH Achmad Fauzan No.17, 59453, Krsak, Bangsri, Kec. Bangsri, Kabupaten Jepara, Jawa Tengah 59415</p>
+                                </div>
+                                <div class="contact">
+                                    <h3 class="text-base font-bold mb-3">Work Inquiries</h3>
+                                    <p class="text-xs font-normal text-gray-300">gimlerdude@gmail.com (+62)8677652634</p>
+                                </div>
+                            </div>
+                            <div class="copyright text-center py-3 text-xs translate-y-10 xs:translate-y-40 font-normal">
+                                <p>© All rights reserved | <span class="font-bold">PT Bogeng Tripleer</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <div class="container lg:mx-20 xs:mt-12 ">
+                    
+                    <div class="content-1 px-8 lg:flex lg:flex-row xs:mb-20">
+                    <div class="gambar z-0 w-1/2 xs:w-full lg:hidden md:w-full sm:visible ">
+                        <img src="../src/assets/images/pe.png" alt="">
+                    </div>
+                    <div class="deskripsi text-text text-sm mb-6">
+                        <div class="judul mb-4 lg:mt-40">
+                            <h3 class="text-2xl font-black text-text max-w-xs lg:text-4xl lg:max-w-lg">KelasQue - Kumpulan Sukses di Tangan Kita: Angkatan 2022/2025</h3>
+                        </div>
+                        <p class="max-w-xl text-base text-black">KelasQue adalah website yang menghubungkan angkatan tahun 2022/2025 dari SMKN 1 Bangsri. Anggota dapat berinteraksi, berkolaborasi, dan membangun jaringan profesional dengan forum diskusi, grup chat, dan direktori anggota. KelasQue juga menyediakan konten inspiratif untuk pengembangan diri, karir, dan kepemimpinan. Dengan KelasQue, anggota angkatan 2021/2022 dapat meraih sukses bersama-sama.</p>
+                        <div class="btn mt-8">
+                            <a class="px-6 py-3 bg-text rounded-md text-white text-sm font-bold hover:bg-transparent hover:text-text hover:px-8 hover:border-solid hover:border-text hover:border-2 transition" href="">Get Started</a>
+                        </div>
+                    </div>
+                    <div class="gambar pt-12 xs:hidden w-1/2 xs:w-full  lg:visible lg:w-1/2">
+                        <img src="../src/assets/images/pe.png" alt="">
+                    </div>
+                </div>
+                <div class="content-2 px-6 mb-20">
+                    <div class="isi lg:grid lg:grid-cols-2">
+                        <div class="gambar mb-5">
+                            <img class="rounded-lg" src="../src/assets/images/02.png" alt="">
+                        </div>
+                        <div class="text lg:px-14 xs:px-2">
+                            <div class="judul text-text font-black text-2xl mb-5">
+                                <h3>Untuk apa platform ini:</h3>
+                            </div>
+                            <div class="deskripsi">
+                                <p>Dengan berbagai fitur yang disediakan, KelasQue menjadikan interaksi antar anggota menjadi lebih mudah dan efektif. Forum diskusi menjadi tempat di mana ide-ide dapat ditukar, masalah dapat dibahas, dan inspirasi dapat diungkapkan. Grup chat menjadi arena yang hidup, memungkinkan anggota untuk saling berbagi informasi, mengorganisir proyek bersama, atau bahkan sekadar bersenda gurau. Tak hanya itu, direktori anggota juga memudahkan dalam mencari dan mengenal satu sama lain, memperluas jaringan profesional, dan menciptakan kolaborasi yang bermanfaat.</p>
+                            </div>
+                            <div class="member mt-8 border-t w-1/6">
+                                <h3 class="mt-5 text-4xl font-bold text-text">300+</h3>
+                                <p class="text-gray-400">Member</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-03 mb-20">
+                <div class="isi w-full h-52 bg-text">
+
+                </div>
+            </div>
+        </div>
+        <footer class="text-xs">
+            <div class="flex m-16 flex-row justify-between gap-6 xs:flex-col xs:m-10 xs:text-sm">
+                <div class="logo">
+                    <h3 class="font-black text-3xl text-text mb-2">Kelas<span class="text-lain">Que</span></h3>
+                    <p class="max-w-xs">KelasQue is an established company under the name</p>
+                    <p class="font-bold">PT Bogeng Tripleer</p>
+                </div>
+                <div class="contact">
+                    <h3 class="mb-3 text-text font-bold">Contact Info</h3>
+                    <p>gimlerdude@gmail.com</p>
+                    <p>(+62) 8656454335</p>
+                </div>
+                <div class="location">
+                    <h3 class="mb-3 text-text font-bold">Location</h3>
+                    <p class="max-w-xs">JL. KH Achmad Fauzan No.17, 59453, Krsak, Bangsri, Kec. Bangsri, Kabupaten Jepara, Jawa Tengah 59415</p>
+                </div>
+                <div class="sosmed">
+                    <h3 class="mb-3 text-text font-bold">Follow Us</h3>
+                    <div class="logo-sosmed flex flex-row gap-3">
+                        <a class="flex justify-center items-center h-12 w-12 border-black border-2 rounded-full" href=""><i class="" data-feather="facebook"></i></a>
+                        <a class="flex justify-center items-center h-12 w-12 border-black border-2 rounded-full" href=""><i class="" data-feather="instagram"></i></a>
+                        <a class="flex justify-center items-center h-12 w-12 border-black border-2 rounded-full" href=""><i class="" data-feather="linkedin"></i></a>
+                        <a class="flex justify-center items-center h-12 w-12 border-black border-2 rounded-full" href=""><i class="" data-feather="twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright border-t mx-14 text-end py-3 xs:text-center xs:text-xs xs:mx-8">
+                <p>© All rights reserved | <span class="font-bold">PT Bogeng Tripleer</span></p>
+            </div>
+        </footer>
+    </div>
+    <script>
+        feather.replace()
+    </script>
+    <script src="../src/js/script.js"></script>
+</body>
+</html>
